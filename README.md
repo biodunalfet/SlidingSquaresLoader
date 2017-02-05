@@ -6,11 +6,23 @@ Sliding Square Loader - A simple progress loader inspired by [Can you Code this 
 
 ## Gradle
 
+**Step 1.** Add the JitPack repository to your build file
+
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+**Step 2.** Add the dependency
+
 ```
 dependencies {
-	...
-	compile 'com.xxx.xxx.1.0.0'
-}
+	        compile 'com.github.biodunalfet:SlidingSquaresLoader:v1.0'
+	}
 ```
 
 ## Usage
@@ -36,7 +48,7 @@ dependencies {
 3. `sslv_delay` = the number of milliseconds to wait before sliding. Default value is `25`
 4. `sslv_square_length` = the dimension of each square. Default value is `25dp`
 5. `sslv_gap` = the dimension of the gap between each square. Default value is `5dp`
-6. `sslv_color` = the `color` of the square. Defaults to `#2342h3`
+6. `sslv_color` = the `color` of the square. Defaults to `#ff8f00`
 
 * In Java
 
