@@ -2,7 +2,7 @@
 
 Sliding Square Loader - A simple progress loader inspired by [Can you Code this UI? Volume 6!](https://stories.uplabs.com/can-you-code-this-ui-volume-6-7bd09fa6dd92#.nyh2zhpvb)
 
-![sslv animation](https://media.giphy.com/media/l3q2HR5PQ5K5fL7gI/giphy.gif)
+![sslv animation](https://media.giphy.com/media/l0ExrZuZO2ihDzAfm/giphy.gif)
 
 ## Gradle
 
