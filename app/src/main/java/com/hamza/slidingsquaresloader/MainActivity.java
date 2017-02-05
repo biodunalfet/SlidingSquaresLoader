@@ -1,21 +1,12 @@
 package com.hamza.slidingsquaresloader;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.graphics.Color;
-import android.graphics.Point;
 import android.os.Bundle;
-import android.os.HandlerThread;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Display;
 import android.view.View;
-import android.view.ViewPropertyAnimator;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 
-import java.util.Random;
-import java.util.logging.Handler;
-import java.util.logging.LogRecord;
+import com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView;
 
 public class MainActivity extends AppCompatActivity {
 

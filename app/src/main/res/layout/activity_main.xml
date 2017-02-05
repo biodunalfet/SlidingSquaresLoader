@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context="com.hamza.slidingsquaresloader.MainActivity">
 
-    <com.hamza.slidingsquaresloader.SlidingSquareLoaderView
+    <com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button"
@@ -23,7 +23,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         />
 
-    <com.hamza.slidingsquaresloader.SlidingSquareLoaderView
+    <com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/sliding_view"
@@ -33,7 +33,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         />
 
-    <com.hamza.slidingsquaresloader.SlidingSquareLoaderView
+    <com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/sliding_view"
