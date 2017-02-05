@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlidingSquareLoaderView">
+        <attr name="sslv_start" format="boolean"/>
+        <attr name="sslv_color" format="color"/>
+        <attr name="sslv_square_length" format="dimension"/>
+        <attr name="sslv_gap" format="dimension"/>
+        <attr name="sslv_duration" format="integer"/>
+        <attr name="sslv_delay" format="integer"/>
+    </declare-styleable>
+
+</resources>
