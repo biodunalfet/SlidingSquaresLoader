@@ -21,7 +21,7 @@ allprojects {
 
 ```
 dependencies {
-	        compile 'com.github.biodunalfet:SlidingSquaresLoader:v1.0'
+	        compile 'com.github.biodunalfet:SlidingSquaresLoader:1.0'
 	}
 ```
 
