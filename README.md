@@ -1,3 +1,4 @@
+[![](https://jitpack.io/v/biodunalfet/SlidingSquaresLoader.svg)](https://jitpack.io/#biodunalfet/SlidingSquaresLoader)
 # SlidingSquaresLoader
 
 Sliding Square Loader - A simple progress loader inspired by [Can you Code this UI? Volume 6!](https://stories.uplabs.com/can-you-code-this-ui-volume-6-7bd09fa6dd92#.nyh2zhpvb)
