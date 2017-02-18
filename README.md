@@ -9,39 +9,38 @@ Sliding Square Loader - A simple progress loader inspired by [Can you Code this 
 
 **Step 1.** Add the JitPack repository to your build file
 
-```
+``` groovy
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 **Step 2.** Add the dependency
 
-```
+``` groovy
 dependencies {
-	        compile 'com.github.biodunalfet:SlidingSquaresLoader:1.0'
-	}
+	compile "com.github.biodunalfet:SlidingSquaresLoader:1.0"
+}
 ```
 
 ## Usage
 
 * In XML Layout
 
-```
+``` xml
 <com.hamza.slidingsquaresloader.SlidingSquareLoaderView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:sslv_start="true"
-        app:sslv_delay="15"
-        app:sslv_duration="150"
-        app:sslv_gap="2dp"
-        app:sslv_square_length="12dp"
-        app:sslv_color="@color/colorPrimary"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        />
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:sslv_start="true"
+    app:sslv_delay="15"
+    app:sslv_duration="150"
+    app:sslv_gap="2dp"
+    app:sslv_square_length="12dp"
+    app:sslv_color="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    />
 ```
 
 1. `sslv_start` = `boolean` that determines if the loader should start sliding. Default value is `true`.
@@ -53,7 +52,7 @@ dependencies {
 
 * In Java
 
-```
+``` java
 SlidingSquareLoaderView slidingview2 = (SlidingSquareLoaderView) findViewById(R.id.sliding_view2);
 slidingview.start();    // starts the sliding
 slidingview.stop();     // stops the sliding
