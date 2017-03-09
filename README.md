@@ -30,7 +30,7 @@ dependencies {
 * In XML Layout
 
 ``` xml
-<com.hamza.slidingsquaresloader.SlidingSquareLoaderView
+<com.hamza.slidingsquaresloaderview.SlidingSquareLoaderView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:sslv_start="true"
