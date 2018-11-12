@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:background="#000000"
     android:layout_height="match_parent"
     tools:context="com.hamza.slidingsquaresloader.MainActivity">
 
@@ -12,7 +11,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
         android:layout_centerHorizontal="true"
         app:sslv_start="true"
         app:sslv_delay="15"
@@ -48,7 +49,7 @@
         android:layout_marginBottom="15dp"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
-        android:text="START/STOP"
+        android:text="@string/start_stop"
         android:id="@+id/button"/>
 
 

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Point;
+import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -20,7 +21,7 @@ import java.util.Random;
 
 public class SlidingSquareLoaderView extends FrameLayout {
 
-    private final String TAG = "SSLV";
+    private static final String TAG = "SSLV";
     /**
      * Direction trackers for the view
      * By default, it starts from the top right
@@ -108,7 +109,8 @@ public class SlidingSquareLoaderView extends FrameLayout {
 
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.SlidingSquareLoaderView);
         start = typedArray.getBoolean(R.styleable.SlidingSquareLoaderView_sslv_start, true);
-        default_color = typedArray.getColor(R.styleable.SlidingSquareLoaderView_sslv_color, getResources().getColor(R.color.sslv_color));
+        default_color = typedArray.getColor(R.styleable.SlidingSquareLoaderView_sslv_color,
+                ContextCompat.getColor(getContext(), R.color.sslv_color));
 
         int sslv_duration = typedArray.getInteger(R.styleable.SlidingSquareLoaderView_sslv_duration, duration);
         int sslv_delay = typedArray.getInteger(R.styleable.SlidingSquareLoaderView_sslv_duration, delay);
@@ -163,6 +165,7 @@ public class SlidingSquareLoaderView extends FrameLayout {
                 // we were told to be.
                 measurement = Math.min(preferred, specSize);
                 break;
+            case MeasureSpec.UNSPECIFIED:
             default:
                 measurement = preferred;
                 break;
